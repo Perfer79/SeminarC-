@@ -1,2 +1,24 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿/*1. Напишите программу, которая на вход принимает два числа и проверяет, является ли первое число квадратом второго.
+a = 5; b = 25 -> да 
+a = 2 b = 10 -> нет 
+a = 9; b = -3 -> нет 
+a = -3 b = 9 -> да
+3. Напишите программу, которая будет выдавать название дня недели по заданному номеру.
+	3 -> Среда 
+5 -> Пятница
+
+*/
+
+int a = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
+
+if (a * a == b)
+{
+    console.WriteLine("Число - квадратный корень");
+
+}
+else
+{
+    console.WriteLine("Число - не квадратный корень");
+}
+    
